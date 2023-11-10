@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+.topl{
+    margin-top: 13px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.tit{
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.item{
+    font-size: 30px;
+}
+.cont{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.add{
+    font-size: 30px;
+    opacity: 40%;
+}
+.addim{
+    height: 50px;
+    width: auto;
+}
+.ele,.el{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 550px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.ele{
+    background-color: rgb(145, 56, 56);
+}
+.booktit{
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    font-style: italic;
+}
+.by{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+}
+.bookauth{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+.num{
+    font-size: 20px;
+    font-style: italic;
+}
+.btnn1,.btnn2{
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    transition-property: transform, box-shadow;
+    transition-duration: .5s;
+}
+.el{
+    transition-property: transform, box-shadow;
+    transition-duration: .5s;
+}
+.bttntog{
+    background-color: green;
+    color: white;
+}
+.el:active{
+    transform: scale(.6);
+}
+.btnn1:active{
+    transform: scale(.6);
+}
+.btnn2:active{
+    transform: scale(.6);
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+}
+input[type="checkbox"] {
+    width: 15px;
+    margin-top: 11px;
+}
+#submit {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-right: 50px;
+}
+#cancle{
+    padding: 10px 20px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.ch{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.sty{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 550px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.msg{
+    color: red;
+}
